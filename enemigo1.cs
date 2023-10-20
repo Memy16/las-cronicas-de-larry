@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 public class BasicEnemy : MonoBehavior
 {
-    public float speed = 2.0f;
+    public float speed = 20f;
     public float attackRange = 1.0f;
     public float attackDamage = 10.0f;
     private Transform player;
     private Animator animator;
     void Start()
     {
-        player = GameObjet.FindGameObjetWithTag("Player")
+        player = GameObject.FindGameObjetWithTag("Player").transform;
         animator = GetComponent<Animator>();
     }
     void Uptade()
@@ -29,12 +29,12 @@ public class BasicEnemy : MonoBehavior
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
     }
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         //Si el enemigo choca con Larry, lo daña.
-        if (collision.gameObjet.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-            collision.gameObjet.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
         }
     }
 }
