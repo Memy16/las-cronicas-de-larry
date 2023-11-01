@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 32442220}
   m_Layer: 8
   m_Name: Square (10)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 100691032}
   m_Layer: 7
   m_Name: Square (5)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -564,7 +564,6 @@ GameObject:
   - component: {fileID: 178432535}
   - component: {fileID: 178432536}
   - component: {fileID: 178432537}
-  - component: {fileID: 178432538}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -882,18 +881,6 @@ MonoBehaviour:
   Lives: 200
   NumOfCoins: {fileID: 0}
   NumOfLives: {fileID: 0}
---- !u!114 &178432538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178432529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 712e094d3ee0f2e4aa26018806890031, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &187256076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,7 +1024,7 @@ GameObject:
   - component: {fileID: 268943686}
   m_Layer: 7
   m_Name: Square (6)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1167,7 +1154,7 @@ GameObject:
   - component: {fileID: 394259069}
   m_Layer: 8
   m_Name: Square (8)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1309,7 +1296,7 @@ Transform:
   m_GameObject: {fileID: 482130932}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: -0.29, z: -0.019499065}
+  m_LocalPosition: {x: 0.84, y: -0.09, z: -0.019499065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1436,13 +1423,13 @@ GameObject:
   - component: {fileID: 543633356}
   - component: {fileID: 543633355}
   - component: {fileID: 543633359}
-  m_Layer: 0
-  m_Name: Enemy
+  m_Layer: 9
+  m_Name: Falco
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &543633355
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1651,7 +1638,7 @@ GameObject:
   - component: {fileID: 633978350}
   m_Layer: 7
   m_Name: Square (2)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1781,7 +1768,7 @@ GameObject:
   - component: {fileID: 658326300}
   m_Layer: 7
   m_Name: Square
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1943,7 +1930,7 @@ GameObject:
   - component: {fileID: 793564111}
   m_Layer: 8
   m_Name: Square (9)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2073,7 +2060,7 @@ GameObject:
   - component: {fileID: 837504741}
   m_Layer: 7
   m_Name: Square (4)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2203,7 +2190,7 @@ GameObject:
   - component: {fileID: 934102795}
   m_Layer: 8
   m_Name: Square (5)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2333,7 +2320,7 @@ GameObject:
   - component: {fileID: 953189427}
   m_Layer: 7
   m_Name: Square (1)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2475,7 +2462,7 @@ Transform:
   m_GameObject: {fileID: 964410832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.79, y: 1.9, z: -0.0007117037}
+  m_LocalPosition: {x: 8.79, y: 1.35, z: -0.0007117037}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2494,7 +2481,7 @@ GameObject:
   - component: {fileID: 1038292784}
   m_Layer: 7
   m_Name: Square (7)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2653,9 +2640,11 @@ GameObject:
   - component: {fileID: 1133563751}
   - component: {fileID: 1133563750}
   - component: {fileID: 1133563752}
+  - component: {fileID: 1133563754}
+  - component: {fileID: 1133563755}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2721,7 +2710,7 @@ Transform:
   m_GameObject: {fileID: 1133563749}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.00048393756, w: 0.99999994}
-  m_LocalPosition: {x: 1.9, y: -95, z: 0}
+  m_LocalPosition: {x: 1.9000001, y: -95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2743,6 +2732,78 @@ MonoBehaviour:
   moveSpeed: 5
   chaseSpeed: 5
   detectionRange: 5
+--- !u!61 &1133563754
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133563749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.5}
+    newSize: {x: 1, y: 0.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5}
+  m_EdgeRadius: 0
+--- !u!50 &1133563755
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133563749}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1148030351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,7 +2862,7 @@ Transform:
   m_GameObject: {fileID: 1424647392}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.97, y: 1.39, z: -0.0007117037}
+  m_LocalPosition: {x: 3.29, y: 1.25, z: -0.0007117037}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2820,7 +2881,7 @@ GameObject:
   - component: {fileID: 1446842873}
   m_Layer: 8
   m_Name: Square (7)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2951,7 +3012,7 @@ GameObject:
   - component: {fileID: 1494398180}
   - component: {fileID: 1494398179}
   m_Layer: 0
-  m_Name: Enemy 2
+  m_Name: muller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2988,9 +3049,10 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 1424647393}
   - {fileID: 964410833}
+  - {fileID: 1424647393}
   patrolSpeed: 3
-  chaseSpeed: 5
-  stopDistance: 2
+  chaseSpeed: 10
+  stopDistance: 15
   bulletPrefab: {fileID: 1133563749}
   firePoint: {fileID: 482130933}
 --- !u!61 &1494398180
@@ -3130,7 +3192,7 @@ GameObject:
   - component: {fileID: 1686802241}
   m_Layer: 8
   m_Name: Square (6)
-  m_TagString: Ground
+  m_TagString: Mundo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

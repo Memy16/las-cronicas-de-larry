@@ -11,6 +11,8 @@ TagManager:
   - Coin
   - NumOfCoins
   - NumOfLives
+  - patrol
+  - Mundo
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - World
   - groundLayer
   - wallLayer
-  - 
-  - 
+  - Enemy
+  - bala
   - 
   - 
   - 

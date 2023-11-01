@@ -75,15 +75,17 @@ public class EnemyController : MonoBehaviour
         // Dispara solo si no hay proyectiles existentes
         if (!IsShooting())
         {
+            
             Shoot();
         }
     }
 
     void Shoot()
-    {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, transform.rotation);
-        Destroy(bullet, 2.0f); // Destruye el proyectil después de 2 segundos
-    }
+{
+    GameObject bullet = Instantiate(bulletPrefab, firePoint.position, transform.rotation);
+    bullet.transform.parent = transform; // Establece el objeto padre del proyectil al objeto que dispara
+    Destroy(bullet, 2.0f); // Destruye el proyectil después de 2 segundos
+}
 
     bool IsShooting()
     {
@@ -97,4 +99,5 @@ public class EnemyController : MonoBehaviour
         }
         return false;
     }
+    
 }

@@ -4,8 +4,8 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    private float speed = 14f;
+    private float jumpingPower = 24f;
     private bool isFacingRight = true;
 
     private bool isWallSliding;
@@ -16,11 +16,11 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
-    private Vector2 wallJumpingPower = new Vector2(8f, 16f);
+    private Vector2 wallJumpingPower = new Vector2(24f, 16f);
 
     private bool canDash = true;
     private bool isDashing;
-    private float dashingPower = 24f;
+    private float dashingPower = 34f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
 
@@ -162,4 +162,12 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+    void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Enemy"))
+    {
+        // Destruye el proyectil cuando colisiona con un enemigo.
+        Destroy(gameObject);
+    }
+}
 }
